@@ -1,6 +1,12 @@
+
 module.exports ={
-    drawtriangle: function(limit){
-        limit = 6;
-        console.log(limit)
+    drawTriangle: function(limit){
+        let symbole = "";
+        for (let nbr = 1; nbr < 7; nbr ++){
+            symbole = symbole + "$";
+            console.log(symbole)
+        }
+        
     }
+    
 }
